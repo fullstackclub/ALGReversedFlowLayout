@@ -39,7 +39,7 @@
 - (BOOL) shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
 {
   if (self.expandContentSizeToBounds &&
-      fabsf(self.collectionView.bounds.size.height - newBounds.size.height) > FLT_EPSILON ) {
+      fabs(self.collectionView.bounds.size.height - newBounds.size.height) > FLT_EPSILON ) {
     return YES;
   }
   else {
