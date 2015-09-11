@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4748162E1BA26B5D00EF8E3C /* ALGReversedFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4748162B1BA26B4500EF8E3C /* ALGReversedFlowLayout.framework */; };
+		4748162F1BA26B5D00EF8E3C /* ALGReversedFlowLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4748162B1BA26B4500EF8E3C /* ALGReversedFlowLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E825B6A192C172600ABC871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825B69192C172600ABC871 /* Foundation.framework */; };
 		5E825B6C192C172600ABC871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825B6B192C172600ABC871 /* CoreGraphics.framework */; };
 		5E825B6E192C172600ABC871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825B6D192C172600ABC871 /* UIKit.framework */; };
@@ -21,10 +23,30 @@
 		5E825B8B192C172700ABC871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825B6D192C172600ABC871 /* UIKit.framework */; };
 		5E825B93192C172700ABC871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E825B91192C172700ABC871 /* InfoPlist.strings */; };
 		5E825B95192C172700ABC871 /* ReversedCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E825B94192C172700ABC871 /* ReversedCollectionViewTests.m */; };
-		5E9F1E32193459B3006FFBF5 /* ALGReversedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F1E31193459B3006FFBF5 /* ALGReversedFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4748162A1BA26B4500EF8E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474816251BA26B4500EF8E3C /* ALGReversedFlowLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 474816061BA26AA500EF8E3C;
+			remoteInfo = ALGReversedFlowLayout;
+		};
+		4748162C1BA26B4500EF8E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474816251BA26B4500EF8E3C /* ALGReversedFlowLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 474816101BA26AA500EF8E3C;
+			remoteInfo = ALGReversedFlowLayoutTests;
+		};
+		474816301BA26B5D00EF8E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474816251BA26B4500EF8E3C /* ALGReversedFlowLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 474816051BA26AA500EF8E3C;
+			remoteInfo = ALGReversedFlowLayout;
+		};
 		5E825B8C192C172700ABC871 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E825B5E192C172600ABC871 /* Project object */;
@@ -34,7 +56,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		474816321BA26B5D00EF8E3C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4748162F1BA26B5D00EF8E3C /* ALGReversedFlowLayout.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		474816251BA26B4500EF8E3C /* ALGReversedFlowLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ALGReversedFlowLayout.xcodeproj; path = ../ALGReversedFlowLayout.xcodeproj; sourceTree = "<group>"; };
 		5E825B66192C172600ABC871 /* ReversedCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversedCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E825B69192C172600ABC871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E825B6B192C172600ABC871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,8 +91,6 @@
 		5E825B90192C172700ABC871 /* ReversedCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversedCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		5E825B92192C172700ABC871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E825B94192C172700ABC871 /* ReversedCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReversedCollectionViewTests.m; sourceTree = "<group>"; };
-		5E9F1E30193459B3006FFBF5 /* ALGReversedFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALGReversedFlowLayout.h; sourceTree = "<group>"; };
-		5E9F1E31193459B3006FFBF5 /* ALGReversedFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALGReversedFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E825B6C192C172600ABC871 /* CoreGraphics.framework in Frameworks */,
+				4748162E1BA26B5D00EF8E3C /* ALGReversedFlowLayout.framework in Frameworks */,
 				5E825B6E192C172600ABC871 /* UIKit.framework in Frameworks */,
 				5E825B6A192C172600ABC871 /* Foundation.framework in Frameworks */,
 			);
@@ -82,10 +118,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		474816261BA26B4500EF8E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4748162B1BA26B4500EF8E3C /* ALGReversedFlowLayout.framework */,
+				4748162D1BA26B4500EF8E3C /* ALGReversedFlowLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5E825B5D192C172600ABC871 = {
 			isa = PBXGroup;
 			children = (
-				5E9F1E2F19345973006FFBF5 /* Classes */,
+				474816251BA26B4500EF8E3C /* ALGReversedFlowLayout.xcodeproj */,
 				5E825B6F192C172600ABC871 /* ReversedCollectionView */,
 				5E825B8E192C172700ABC871 /* ReversedCollectionViewTests */,
 				5E825B68192C172600ABC871 /* Frameworks */,
@@ -156,16 +201,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5E9F1E2F19345973006FFBF5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5E9F1E30193459B3006FFBF5 /* ALGReversedFlowLayout.h */,
-				5E9F1E31193459B3006FFBF5 /* ALGReversedFlowLayout.m */,
-			);
-			name = Classes;
-			path = ../Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,10 +211,12 @@
 				5E825B62192C172600ABC871 /* Sources */,
 				5E825B63192C172600ABC871 /* Frameworks */,
 				5E825B64192C172600ABC871 /* Resources */,
+				474816321BA26B5D00EF8E3C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				474816311BA26B5D00EF8E3C /* PBXTargetDependency */,
 			);
 			name = ReversedCollectionView;
 			productName = ReversedCollectionView;
@@ -230,6 +267,12 @@
 			mainGroup = 5E825B5D192C172600ABC871;
 			productRefGroup = 5E825B67192C172600ABC871 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 474816261BA26B4500EF8E3C /* Products */;
+					ProjectRef = 474816251BA26B4500EF8E3C /* ALGReversedFlowLayout.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5E825B65192C172600ABC871 /* ReversedCollectionView */,
@@ -237,6 +280,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4748162B1BA26B4500EF8E3C /* ALGReversedFlowLayout.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ALGReversedFlowLayout.framework;
+			remoteRef = 4748162A1BA26B4500EF8E3C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4748162D1BA26B4500EF8E3C /* ALGReversedFlowLayoutTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ALGReversedFlowLayoutTests.xctest;
+			remoteRef = 4748162C1BA26B4500EF8E3C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5E825B64192C172600ABC871 /* Resources */ = {
@@ -264,7 +324,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9F1E32193459B3006FFBF5 /* ALGReversedFlowLayout.m in Sources */,
 				5E825B76192C172600ABC871 /* main.m in Sources */,
 				5E825B80192C172600ABC871 /* ALGViewController.m in Sources */,
 				5E825B7A192C172600ABC871 /* ALGAppDelegate.m in Sources */,
@@ -282,6 +341,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		474816311BA26B5D00EF8E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALGReversedFlowLayout;
+			targetProxy = 474816301BA26B5D00EF8E3C /* PBXContainerItemProxy */;
+		};
 		5E825B8D192C172700ABC871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E825B65192C172600ABC871 /* ReversedCollectionView */;
@@ -349,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -381,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -395,6 +459,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReversedCollectionView/ReversedCollectionView-Prefix.pch";
 				INFOPLIST_FILE = "ReversedCollectionView/ReversedCollectionView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +474,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReversedCollectionView/ReversedCollectionView-Prefix.pch";
 				INFOPLIST_FILE = "ReversedCollectionView/ReversedCollectionView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

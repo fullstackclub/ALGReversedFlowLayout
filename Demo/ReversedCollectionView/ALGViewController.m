@@ -8,7 +8,7 @@
 
 #import "ALGViewController.h"
 
-#import "ALGReversedFlowLayout.h"
+#import "ALGReversedFlowLayout/ALGReversedFlowLayout.h"
 
 static CGFloat const kSmallHeight = 150.f;
 static CGFloat const kMediumHeight = 250.f;

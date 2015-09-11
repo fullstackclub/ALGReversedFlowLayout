@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Alexis Gallagher. All rights reserved.
 //
 
-#import "ALGReversedFlowLayout.h"
+#import "ALGReversedFlowLayoutImpl.h"
 
 @interface ALGReversedFlowLayout ()
 @end
