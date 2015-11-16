@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479862821BF974CD00259518 /* ALGReversedFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 479862811BF974CD00259518 /* ALGReversedFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479862891BF974CD00259518 /* ALGReversedFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4798627F1BF974CD00259518 /* ALGReversedFlowLayout.framework */; };
+		4798628E1BF974CD00259518 /* ALGReversedFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4798628D1BF974CD00259518 /* ALGReversedFlowLayoutTests.m */; };
+		479862961BF974D300259518 /* ALGReversedFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9F1E30193459B3006FFBF5 /* ALGReversedFlowLayout.h */; };
+		479862971BF974D600259518 /* ALGReversedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F1E31193459B3006FFBF5 /* ALGReversedFlowLayout.m */; };
 		5E825B6A192C172600ABC871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825B69192C172600ABC871 /* Foundation.framework */; };
 		5E825B6C192C172600ABC871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825B6B192C172600ABC871 /* CoreGraphics.framework */; };
 		5E825B6E192C172600ABC871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825B6D192C172600ABC871 /* UIKit.framework */; };
@@ -25,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4798628A1BF974CD00259518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E825B5E192C172600ABC871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4798627E1BF974CD00259518;
+			remoteInfo = ALGReversedFlowLayout;
+		};
 		5E825B8C192C172700ABC871 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E825B5E192C172600ABC871 /* Project object */;
@@ -35,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4798627F1BF974CD00259518 /* ALGReversedFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALGReversedFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479862811BF974CD00259518 /* ALGReversedFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALGReversedFlowLayout.h; sourceTree = "<group>"; };
+		479862831BF974CD00259518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479862881BF974CD00259518 /* ALGReversedFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALGReversedFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4798628D1BF974CD00259518 /* ALGReversedFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALGReversedFlowLayoutTests.m; sourceTree = "<group>"; };
+		4798628F1BF974CD00259518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E825B66192C172600ABC871 /* ReversedCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReversedCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E825B69192C172600ABC871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E825B6B192C172600ABC871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +77,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4798627B1BF974CD00259518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479862851BF974CD00259518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479862891BF974CD00259518 /* ALGReversedFlowLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E825B63192C172600ABC871 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,12 +115,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		479862801BF974CD00259518 /* ALGReversedFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				479862811BF974CD00259518 /* ALGReversedFlowLayout.h */,
+				479862831BF974CD00259518 /* Info.plist */,
+			);
+			path = ALGReversedFlowLayout;
+			sourceTree = "<group>";
+		};
+		4798628C1BF974CD00259518 /* ALGReversedFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				4798628D1BF974CD00259518 /* ALGReversedFlowLayoutTests.m */,
+				4798628F1BF974CD00259518 /* Info.plist */,
+			);
+			path = ALGReversedFlowLayoutTests;
+			sourceTree = "<group>";
+		};
 		5E825B5D192C172600ABC871 = {
 			isa = PBXGroup;
 			children = (
 				5E9F1E2F19345973006FFBF5 /* Classes */,
 				5E825B6F192C172600ABC871 /* ReversedCollectionView */,
 				5E825B8E192C172700ABC871 /* ReversedCollectionViewTests */,
+				479862801BF974CD00259518 /* ALGReversedFlowLayout */,
+				4798628C1BF974CD00259518 /* ALGReversedFlowLayoutTests */,
 				5E825B68192C172600ABC871 /* Frameworks */,
 				5E825B67192C172600ABC871 /* Products */,
 			);
@@ -98,6 +151,8 @@
 			children = (
 				5E825B66192C172600ABC871 /* ReversedCollectionView.app */,
 				5E825B87192C172700ABC871 /* ReversedCollectionViewTests.xctest */,
+				4798627F1BF974CD00259518 /* ALGReversedFlowLayout.framework */,
+				479862881BF974CD00259518 /* ALGReversedFlowLayoutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,7 +223,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4798627C1BF974CD00259518 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479862821BF974CD00259518 /* ALGReversedFlowLayout.h in Headers */,
+				479862961BF974D300259518 /* ALGReversedFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		4798627E1BF974CD00259518 /* ALGReversedFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479862941BF974CD00259518 /* Build configuration list for PBXNativeTarget "ALGReversedFlowLayout" */;
+			buildPhases = (
+				4798627A1BF974CD00259518 /* Sources */,
+				4798627B1BF974CD00259518 /* Frameworks */,
+				4798627C1BF974CD00259518 /* Headers */,
+				4798627D1BF974CD00259518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALGReversedFlowLayout;
+			productName = ALGReversedFlowLayout;
+			productReference = 4798627F1BF974CD00259518 /* ALGReversedFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		479862871BF974CD00259518 /* ALGReversedFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479862951BF974CD00259518 /* Build configuration list for PBXNativeTarget "ALGReversedFlowLayoutTests" */;
+			buildPhases = (
+				479862841BF974CD00259518 /* Sources */,
+				479862851BF974CD00259518 /* Frameworks */,
+				479862861BF974CD00259518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4798628B1BF974CD00259518 /* PBXTargetDependency */,
+			);
+			name = ALGReversedFlowLayoutTests;
+			productName = ALGReversedFlowLayoutTests;
+			productReference = 479862881BF974CD00259518 /* ALGReversedFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5E825B65192C172600ABC871 /* ReversedCollectionView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E825B98192C172700ABC871 /* Build configuration list for PBXNativeTarget "ReversedCollectionView" */;
@@ -214,6 +317,12 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Bloom FIlter";
 				TargetAttributes = {
+					4798627E1BF974CD00259518 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					479862871BF974CD00259518 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					5E825B86192C172700ABC871 = {
 						TestTargetID = 5E825B65192C172600ABC871;
 					};
@@ -234,11 +343,27 @@
 			targets = (
 				5E825B65192C172600ABC871 /* ReversedCollectionView */,
 				5E825B86192C172700ABC871 /* ReversedCollectionViewTests */,
+				4798627E1BF974CD00259518 /* ALGReversedFlowLayout */,
+				479862871BF974CD00259518 /* ALGReversedFlowLayoutTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4798627D1BF974CD00259518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479862861BF974CD00259518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E825B64192C172600ABC871 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,6 +385,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4798627A1BF974CD00259518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479862971BF974D600259518 /* ALGReversedFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479862841BF974CD00259518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4798628E1BF974CD00259518 /* ALGReversedFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E825B62192C172600ABC871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +423,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4798628B1BF974CD00259518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4798627E1BF974CD00259518 /* ALGReversedFlowLayout */;
+			targetProxy = 4798628A1BF974CD00259518 /* PBXContainerItemProxy */;
+		};
 		5E825B8D192C172700ABC871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E825B65192C172600ABC871 /* ReversedCollectionView */;
@@ -317,6 +463,106 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		479862901BF974CD00259518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ALGReversedFlowLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = social.ipa.2d.avatar.creator.ALGReversedFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		479862911BF974CD00259518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ALGReversedFlowLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = social.ipa.2d.avatar.creator.ALGReversedFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		479862921BF974CD00259518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ALGReversedFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = social.ipa.2d.avatar.creator.ALGReversedFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		479862931BF974CD00259518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ALGReversedFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = social.ipa.2d.avatar.creator.ALGReversedFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		5E825B96192C172700ABC871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,6 +702,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		479862941BF974CD00259518 /* Build configuration list for PBXNativeTarget "ALGReversedFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479862901BF974CD00259518 /* Debug */,
+				479862911BF974CD00259518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		479862951BF974CD00259518 /* Build configuration list for PBXNativeTarget "ALGReversedFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479862921BF974CD00259518 /* Debug */,
+				479862931BF974CD00259518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5E825B61192C172600ABC871 /* Build configuration list for PBXProject "ReversedCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
